@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1f2933;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.2rem;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 1rem;
+}
+
+.contact {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #1f2933;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #2563eb;
+}
+
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section h2 {
+    color: #1f2933;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2563eb;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.skills-list li {
+    margin-bottom: 8px;
+}
+
+.project {
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1f2933;
+    color: white;
+    font-size: 0.85rem;
+}
